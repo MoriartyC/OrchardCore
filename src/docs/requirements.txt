@@ -1,7 +1,10 @@
 mkdocs>=1.4.2
-mkdocs-material>=9.0.14
+mkdocs-material>=9.5.32
 mkdocs-git-authors-plugin>=0.7.0
 mkdocs-git-revision-date-localized-plugin>=1.1.0
 pymdown-extensions>=9.9.2
 mkdocs-exclude>=1.0.2
 mdx_truly_sane_lists>=1.2
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
